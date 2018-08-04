@@ -1,0 +1,188 @@
+body {
+  
+  background:#FFEBCD;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}  
+
+nav {
+    font-size:15px;
+    display: flex;
+    justify-content:space-around;
+    color:black;
+}
+
+nav a {
+    
+    text-decoration:none;
+  
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+
+  padding: 15px 32px;
+  border: none;
+  text-align: center;
+  color: #1a3c72;
+  display: inline-block;
+  
+}
+
+img  {
+  
+  width: 100%;
+ 
+}
+
+.open { 
+  
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    height: 500px;
+    
+}
+
+.coffeebar { 
+  
+    background-image: url("images/bar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    padding-top: 5%;
+    height: 400px;
+}
+
+
+
+.cold {
+
+    background-image: url("images/icedcoffee.jpg"); 
+    width: auto;
+    height: 700px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+}
+
+
+
+.open h1 {
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  left: 5%;
+  color: white;
+  
+}
+
+div {
+  
+  margin: auto;
+
+}
+
+
+h1
+{
+    font-size: 80px;
+}
+
+h2 
+
+{
+  
+  font-size: 45px;
+  
+}
+
+
+h3 {
+  
+  font-size: 30px;
+  padding: 2px;
+}
+
+
+.hot {
+
+    background-image: url("images/reso.jpg"); 
+    width: auto;
+    height: 750px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:link {
+  
+
+    text-decoration: none;
+}
+
+
+.cold h3, .hot h3 {
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  right: 10%;
+  
+}
+
+.container {
+  
+  display: table;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; 
+  margin: 10px;
+
+  
+}
+  
+
+.sweet, .clever, .reso, .pantry, .etto, .etto2, .toby, .toby2 {
+  
+    flex: 1;
+    padding-bottom: 3%;
+    display: table-cell;
+    padding-top: 3%;
+
+    
+}
+
+.etto2, .toby {
+  
+  vertical-align: middle
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .open, .hot, .cold, .sweet, .clever, .reso, .pantry, .etto, .etto2, .toby, .toby2 { 
+        display: block;
+        width: 100%;
+    }
+
